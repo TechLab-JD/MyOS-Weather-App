@@ -1,0 +1,13 @@
+.wx { display: flex; flex-direction: column; height: 100%; gap: 12px; }
+.wx-form { display: flex; gap: 6px; }
+.wx-form input { flex: 1; padding: 8px 10px; border: 1px solid var(--muted-bg, #444); border-radius: 8px; background: var(--surface, #1e1e1e); color: var(--text, #eee); }
+.wx-form button { padding: 8px 16px; border: 0; border-radius: 8px; background: var(--accent2, #4a90e2); color: #fff; cursor: pointer; font-weight: 600; }
+.wx-result { flex: 1; overflow: auto; }
+.wx-cur { text-align: center; padding: 10px 0; }
+.wx-place { font-size: 1rem; opacity: 0.8; }
+.wx-temp { font-size: 2.6rem; font-weight: 700; }
+.wx-cond { opacity: 0.85; }
+.wx-days { display: flex; gap: 8px; justify-content: space-between; margin-top: 10px; }
+.wx-day { flex: 1; text-align: center; background: var(--muted-bg, #2d2f31); border-radius: 10px; padding: 8px 4px; font-size: 0.78rem; }
+.wx-day .d { opacity: 0.7; } .wx-day .e { font-size: 1.4rem; margin: 2px 0; }
+.wx-msg { text-align: center; opacity: 0.7; padding: 12px; }
